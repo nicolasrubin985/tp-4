@@ -1,0 +1,37 @@
+#include <iostream> 
+using namespace std;
+
+int main ()
+
+{
+    int Cant_notas;
+    int Notas;
+    int Cont;
+    int Prom;
+    int Ntotal;
+    
+    
+     int rta=1;
+    Cont=0;
+    Ntotal=0;
+    
+        cout<<"ingrese cuantas notas son: "<<endl;
+        cin>>Cant_notas;    
+    
+    while (Cont<Cant_notas)
+    {
+        cout<<"ingrese las notas "<<endl;
+        cin>>Notas;
+        
+        Ntotal=Ntotal+Notas;
+        Cont++;
+           
+            
+           
+    }
+            Prom=Ntotal/Cont;
+            cout<<Prom;
+}
+
+    
+    

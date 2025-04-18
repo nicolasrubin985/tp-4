@@ -1,0 +1,26 @@
+#include <iostream> 
+using namespace std;
+
+int main ()
+
+{
+    int numero;
+    int divisor;
+
+    
+        cout<<"ingrese numero  : "<<endl;
+        cin>>numero;   
+         cout<<"ingrese divisor  : "<<endl;
+        cin>>divisor;  
+    
+    if (numero%divisor==0)
+    {
+        cout<<"es par    "<<endl;
+              
+           
+    }
+    else
+    {
+        cout<<"es impar    "<<endl;
+    }
+}

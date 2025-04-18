@@ -1,0 +1,33 @@
+#include <iostream> 
+using namespace std;
+
+int main ()
+
+{
+    int numero1;
+    int cont;
+    int acum;
+    
+    
+
+        cont=1;
+        acum=0;
+    
+        cout<<"ingrese numero 1 : "<<endl;
+        cin>>numero1; 
+        
+          
+            while (cont<=numero1)
+            {
+            
+
+                if(cont % 2 == 0)
+                {
+                acum+=cont;
+                }
+            cont++;
+            
+            }
+        cout<<"la suma de todos los pares es: "<<acum<<endl;
+}     
+     

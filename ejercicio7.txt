@@ -1,0 +1,39 @@
+#include <iostream> 
+using namespace std;
+
+int main ()
+
+{
+    int numero1;
+    int numero2;
+    int numero3;
+    int rta;
+    int suma;
+
+        suma=0;
+        rta=0;
+    
+        cout<<"ingrese numero 1 : "<<endl;
+        cin>>numero1; 
+        cout<<"ingrese numero 2  : "<<endl;
+        cin>>numero2;   
+
+        suma= numero1+numero2; 
+
+        cout<<"quiere volver a sumar: 0 para no, 1 para si  "<<endl;
+        cin>>rta;  
+    
+    if (rta == 1)
+    {
+        cout<<"ingrese otro numero 3    "<<endl;
+        cin>> numero3;
+
+        suma=suma+numero3;  
+        cout<<"la suma es: "<<suma<<endl;
+           
+    }
+    else
+    {
+        cout<<"la suma es: "<<suma<<endl;
+    }
+}

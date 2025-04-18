@@ -1,0 +1,29 @@
+#include <iostream> 
+using namespace std;
+
+int main ()
+
+{
+    int  Fecha_Na;
+    int Edad;
+  
+    
+
+    cout<<"ingrese la fecha de nacimiento"<<endl;
+    cin>>Fecha_Na;
+    
+
+    Edad = 2025 - Fecha_Na;
+    if (Edad>=18)
+    {   
+        cout<<"es mayor"<<endl;
+    }
+    else
+    {
+                cout<<"es menor"<<endl;
+
+    }
+
+    
+
+}

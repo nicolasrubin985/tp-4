@@ -1,0 +1,54 @@
+#include <iostream> 
+using namespace std;
+
+int main ()
+
+{
+    int  Opcion;
+    int Suma;
+    int Resta;
+    int Multi;
+    int Division;
+    int N1;
+    int N2;
+
+  
+    
+
+    cout<<"ingrese 1 para suma, 2 para resta, 3 para Multi, 4 para Division"<<endl;
+    cin>>Opcion;
+    cout<<"ingrese primer numero"<<endl;
+    cin>>N1;
+    cout<<"ingrese 2 numero numero"<<endl;
+    cin>>N2;
+
+    
+    switch (Opcion)     
+    {   
+        case 1:
+                Suma =N1+N2;
+                cout<<Suma<<endl;
+
+                break;
+        case 2:
+                Resta =N1-N2;
+                cout<<Resta<<endl;
+
+                break;
+        case 3:
+                Multi = N1*N2;
+                cout<<Multi<<endl;
+                break;
+        case 4:
+                Division = N1/N2;
+                cout<<Division<<endl;
+                break;
+        default:
+                cout<<"error"<<endl;
+                break;
+
+    }
+
+    
+
+}

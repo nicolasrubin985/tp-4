@@ -1,0 +1,38 @@
+#include <iostream> 
+using namespace std;
+
+int main ()
+
+{
+    int  N1;
+    int N2;
+    int N3;
+    int N_mayor = 0;
+
+    cout<<"ingrese el primer  numero"<<endl;
+    cin>>N1;
+     cout<<"ingrese el segundo  numero"<<endl;
+    cin>>N2;
+     cout<<"ingrese el tercer  numero"<<endl;
+    cin>>N3;
+
+    N_mayor=N1;
+    if (N2>N1 and N2>N3)
+    {   
+        N_mayor=N2 ;
+    }
+    else
+    {
+        if (N3>N1)
+        {
+            N_mayor=N3;
+        }
+        else
+        {
+
+        }
+    }
+
+    cout<<"el numero mayor es:"<<N_mayor<<endl;
+
+}
